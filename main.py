@@ -1,7 +1,8 @@
 # ATM Simulator 
 
 # Initial setup
-username=input("Enter your username>>")
+input("Insert your card>>")
+serial_number=("Input your serial>>")
 account_balance = 1000.0  # Starting balance
 correct_pin = "7124"      # ATM PIN
 daily_withdrawal_limit = 500.0
@@ -137,7 +138,7 @@ def show_transaction_history():
 def login():
     """Handle user login with PIN"""
     print("="*35)
-    print(f"     WELCOME {username}! TO ATM STIMULATOR")
+    print(f"     WELCOME TO ATM STIMULATOR")
     print("="*35)
     
     attempts = 0
