@@ -45,7 +45,7 @@ def deposit():
             print("Error: Deposit amount must be greater than zero!")
             return
         
-        # Check for unrealistic amounts (basic validation)
+        # Check for unrealistic amounts
         if amount > 10000:
             print("Error: Maximum deposit limit is GHS10,000 per transaction!")
             return
