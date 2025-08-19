@@ -190,7 +190,7 @@ def main():
             
             elif choice == "5":
                 print("\n" + "="*30)
-                print("Thank you for using Python ATM!")
+                print("Thank you for using ATM STIMULATOR!")
                 print("Have a great day!")
                 print("="*30)
                 break
